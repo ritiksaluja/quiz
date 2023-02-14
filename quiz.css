@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.screen1{
+    background-color: brown;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+    background-color: white;
+}
+.nav button{
+    background-color:black;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.body{
+    display: flex;
+    background-color: aqua;
+}
+.start{
+    width: 48%;
+    text-align: center;
+    margin: auto;
+}
+.start h1 {
+    font-size: 60px;
+}
+.start button{
+    margin: 20px 0px;
+    background-color:black;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.img{
+    width: 48%;
+    text-align: center;
+   
+}
+.img img{
+    width: 500px;
+    height: 521px;
+}
+
+/* scrren2 ki css */
+.screen2{
+    display: none;
+}
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 30px 0px;
+    background-color: red;
+}
+.tag a {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0px;
+    
+    
+}
+.welcome h1 {
+    font-size: 40px;
+}
+.welcome button{
+    width: 70%;
+    height: 50px;
+    margin: 1.8rem 0rem;
+    border-radius: 30px;  
+}
+/* screen3 ki css */
+.dsa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.question1{
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+}
+
